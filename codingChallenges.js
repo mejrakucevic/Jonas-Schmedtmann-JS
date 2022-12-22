@@ -53,16 +53,26 @@
 // § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 // § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 10
 
-const dolphinsPoints = 96 + 108 + 89 + 97 + 112 + 101 + 97 + 112 + 101;
-const dolphinsAverage = dolphinsPoints / 9;
+// const dolphinsPoints = 96 + 108 + 89 + 97 + 112 + 101 + 97 + 112 + 101;
+// const dolphinsAverage = dolphinsPoints / 9;
 
-const koalasPoints = 89 + 91 + 110 + 109 + 95 + 123 + 109 + 95 + 10;
-const koalasAverage = koalasPoints / 9;
+// const koalasPoints = 89 + 91 + 110 + 109 + 95 + 123 + 109 + 95 + 10;
+// const koalasAverage = koalasPoints / 9;
 
-if ( dolphinsPoints >= 100 && dolphinsAverage > koalasAverage ) {
-    console.log(`Dolphins team wins the trophy with ${dolphinsPoints} points! `)
-} else if (koalasPoints >= 100 && koalasAverage > dolphinsAverage) {
-    console.log(`Koalas team wins the trophy with ${koalasPoints} points! `)
-} else if (koalasPoints && dolphinsPoints >= 100 && koalasAverage === dolphinsAverage) {
-    console.log(`It's a draw! Both teams have exactly ${koalasPoints} points! `)
-} else ("Both teams have less than a 100 points, no one wins! ")
+// if ( dolphinsPoints >= 100 && dolphinsAverage > koalasAverage ) {
+//     console.log(`Dolphins team wins the trophy with ${dolphinsPoints} points! `)
+// } else if (koalasPoints >= 100 && koalasAverage > dolphinsAverage) {
+//     console.log(`Koalas team wins the trophy with ${koalasPoints} points! `)
+// } else if (koalasPoints && dolphinsPoints >= 100 && koalasAverage === dolphinsAverage) {
+//     console.log(`It's a draw! Both teams have exactly ${koalasPoints} points! `)
+// } else ("Both teams have less than a 100 points, no one wins! ")
+
+
+// 4
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 :
+bill * 0.2;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
+
